@@ -3,7 +3,7 @@
 #include <string>
 using namespace std;
 
-class INVENTORYITEM_H{
+class InventoryItem{
   private:
     string description;
     double cost;
