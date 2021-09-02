@@ -1,4 +1,4 @@
-#indef INVENTORYITEM_H
+#ifdef INVENTORYITEM_H
 #define INVENTORYITEM_H
 #include <string>
 using namespace std;
@@ -8,13 +8,15 @@ class InventoryItem{
     string description;
     double cost;
     int units;
+    
   public:
   //Constructor #1
     InventoryItem(){
       description = "";
-    }
+  
     costs = 0.0;
     units = 0;
+    }
   //Constructor #2
     InventoryItem(string desc){
       description = desc;
